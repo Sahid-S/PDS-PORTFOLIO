@@ -55,8 +55,8 @@ const students = [
     {
         id:2,
         name: 'Sahid S',
-        specialization: 'Python Developer - Data Scientist - AI/ML Engineer',
-        skills: ['Python', 'SQL', 'Scikit-learn', 'TensorFlow', 'React - React Native', 'Flask'],
+        specialization: 'Python Full Stack Developer - AI/ML Engineer - Data Scientist',
+        skills: ['Python', 'SQL', 'Scikit-learn', 'TensorFlow', 'React - React Native', 'Flask', 'Hugging Face'],
         impact: 'Developed an AI-integrated IPL win prediction system using Machine Learning and an enhanced fan engagement Chatbot.',
         rollNumber: '24pds029',
         profileImage: 'assets/profile/24pds029.jpg',
@@ -121,7 +121,7 @@ const students = [
     {
         id:8,
         name: 'Sudhagar R',
-        specialization: 'Network Management and Administrator - Data Analyst - Web Development',
+        specialization: 'Network Management and Administrator - Data Analyst - Web Developer',
         skills: ['Python', 'JavaScript', 'Burp Suite', 'AWS'],
         impact: 'Developed an anonymized dataset for network forensics and Intrusion Detection System (IDS) evaluation.',
         rollNumber: '24pds035',
