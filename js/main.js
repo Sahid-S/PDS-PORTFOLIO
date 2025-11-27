@@ -79,6 +79,26 @@ const students = [
         profileImage: 'assets/profile/24pds035.jpg',
         linkedin: 'https://www.linkedin.com/in/sudhagar-raja-4283b2298/',
         github: 'https://github.com/sudhagar-raja'
+    },
+    {
+        name: 'Bharath V',
+        specialization: 'Data Scientist - AI/ML Engineer - NLP Specialist',
+        skills: ['Python', 'Numpy', 'Pandas', 'Scikit-learn', 'TensorFlow', 'SQL'],
+        impact: 'Developed a predictive maintenance system for network towers utilizing Machine Learning and Generative AI',
+        rollNumber: '24pds007',
+        profileImage: 'assets/profile/24pds007.jpg',
+        linkedin: 'https://www.linkedin.com/in/bharath-v-4a958028b/',
+        github: 'https://github.com/bharathvelappan'
+    },
+    {
+        name: 'Sulthan Alavudeen J',
+        specialization: 'Data Scientist - AI/ML Engineer',
+        skills: ['Python', 'Power BI', 'Excel', 'SQL'],
+        impact: 'Developed a futuristic smart city model using Machine Learning.',
+        rollNumber: '24pds036',
+        profileImage: 'assets/profile/24pds036.jpg',
+        linkedin: 'https://www.linkedin.com/in/sulthan-alavudeen-4ab361380/',
+        github: 'https://github.com/alakutty'
     }
     
 ];
