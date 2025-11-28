@@ -56,7 +56,7 @@ const students = [
         id:2,
         name: 'Sahid S',
         specialization: 'Python Full Stack Developer - AI/ML Engineer - Data Scientist',
-        skills: ['Python', 'SQL', 'Scikit-learn', 'TensorFlow', 'React - React Native', 'Flask', 'Hugging Face'],
+        skills: ['Python', , 'Flask', 'JavaScript','Node.js', 'React Native', 'SQL', 'Hugging Face'],
         impact: 'Developed an AI-integrated IPL win prediction system using Machine Learning and an enhanced fan engagement Chatbot.',
         rollNumber: '24pds029',
         profileImage: 'assets/profile/24pds029.jpg',
