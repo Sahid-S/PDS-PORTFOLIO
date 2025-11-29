@@ -492,7 +492,7 @@ const students = [
     },
     {
         id:42,
-        name: 'Absul Basheer J',
+        name: 'Abdul Baseer J',
         specialization: 'Full Stack Developer - Digital Marketing Specialist - Data Analyst',
         skills: ['Python', 'JavaScript','SQL','Power BI','Excel'],
         impact: 'Developed a system for Electricity Cost Prediction using Machine Learning.',
