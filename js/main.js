@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', loadComponents);
 const students = [
     {
         id:1,
-        name: 'Tony Renold',
+        name: 'Tony Renold M',
         specialization: 'Web Developer - Business Analyst - MLops Engineer',
         skills: ['Python', 'R', 'SQL', 'MongoDB', 'Docker', 'Power BI'],
         impact: 'Developed an Oil and Fuel Analysis and Forecasting system using Machine Learning.',
@@ -98,9 +98,9 @@ const students = [
     },
     {
         id:6,
-        name: 'Ajith Kumar T',
-        specialization: 'Web Developer - Data Scientist - MLops Engineer',
-        skills: ['Python', 'Django', 'HTML', 'Tailwind CSS', 'Hugging Face', 'Linux', 'Figma'],
+        name: 'AjithKumar T',
+        specialization: 'Data Scientist - AI/ML Engineer - Web Developer',
+        skills: ['Python', 'Django', 'pandas', 'numpy' , 'Hugging Face', 'Linux', 'Figma'],
         impact: 'Developed Stock Price Prediction System using Machine Learning.',
         rollNumber: '24pds004',
         profileImage: 'assets/profile/24pds004.jpg',
@@ -284,7 +284,7 @@ const students = [
         github: 'https://github.com/deepika-1103'
     },
     {
-        id:22,
+        id:23,
         name: 'Kumaravel E',
         specialization: 'Data Analyst - Machine Learning Engineer - Web Designer',
         skills: ['Python', 'Power BI', 'SQL','Excel', 'HTML','CSS'],
@@ -295,7 +295,7 @@ const students = [
         github: 'https://github.com/kumaravel13-Max'
     },
     {
-        id:23,
+        id:24,
         name: 'Jasmine J',
         specialization: 'Data Analyst - AI/ML Engineer',
         skills: ['Python', 'Power BI', 'SQL','Excel', 'HTML','CSS'],
@@ -306,17 +306,212 @@ const students = [
         github: 'https://github.com/jasmine2092003'
     },
     {
-        id:24,
+        id:25,
         name: 'Vigneshwarapandiyan',
         specialization: 'Machine Learning Engineer - Game Developer, Video Editor',
         skills: ['Python', 'Power BI', 'SQL'],
         impact: 'Developed a Machine Learning system for predicting Electric Vehicle (EV) performance.',
         rollNumber: '24pds028',
         profileImage: 'assets/profile/24pds028.jpg',
-        linkedin: 'https://www.linkedin.com/in/jasmine-j-/',
-        github: 'https://github.com/jasmine2092003'
+        linkedin: 'https://www.linkedin.com/in/vigneshwarapandiyan-s-27ba85280/',
+        github: 'https://github.com/vignesh23-hub'
     },
-    
+    {
+        id:26,
+        name: 'Rekila S',
+        specialization: 'Machine Learning Engineer - Data Analyst - Web Developer',
+        skills: ['Python', 'Power BI', 'SQL','HTML','CSS'],
+        impact: 'Developed the frontend for an e-commerce website with a functional shopping cart, using HTML, CSS, and JavaScript.',
+        rollNumber: '24Pds026',
+        profileImage: 'assets/profile/24pds026.jpg',
+        linkedin: 'https://www.linkedin.com/in/rekila-s-b0ab881b9/',
+        github: 'https://github.com/reki2002'
+    },
+    {
+        id:27,
+        name: 'Lathika K',
+        specialization: 'Machine Learning Engineer - Data Analyst - Web Developer',
+        skills: ['Python', 'Power BI', 'SQL','HTML','CSS'],
+        impact: 'Developed a Machine Learning system for Soil Health Index prediction and visualization.',
+        rollNumber: '24Pds019',
+        profileImage: 'assets/profile/24pds019.jpg',
+        linkedin: 'https://www.linkedin.com/in/lathika-k-880794399/',
+        github: 'https://github.com/lathikaLat01'
+    },
+    {
+        id:28,
+        name: 'Surya P',
+        specialization: 'UI/UX Designer- Brand Identity Designer - Web Developer',
+        skills: ['HTML','CSS', 'Javascript', 'Figma', 'Framer','Affinity Designer'],
+        impact: 'Developed and implemented a new website design for Eyenet Institute.',
+        rollNumber: '24Pds038',
+        profileImage: 'assets/profile/24pds038.jpg',
+        linkedin: 'https://www.linkedin.com/in/surya0607/',
+        github: 'https://github.com/imsurya06'
+    },
+    {
+        id:29,
+        name: 'Swathy M',
+        specialization: 'Python Developer - Machine Learning Engineer - Data Analyst',
+        skills: ['Python', 'Power BI', 'Numpy','Pandas', 'Scikit-learn'],
+        impact: 'Developed predictive and analytical models using Machine Learning for climate change studies.',
+        rollNumber: '24Pds044',
+        profileImage: 'assets/profile/24pds044.jpg',
+        linkedin: 'https://www.linkedin.com/in/swathy-m-/',
+        github: 'https://github.com/swathy23492'
+    },
+    {
+        id:30,
+        name: 'Sambath Raja G S',
+        specialization: 'Machine Learning Engineer - Data Analyst - Java developer',
+        skills: ['Python', 'Java', 'Javascript','SQL', 'PHP','numpy','pandas'],
+        impact: 'Developed a comprehensive analysis framework to study mobile phone addiction in teenagers.',
+        rollNumber: '24Pds030',
+        profileImage: 'assets/profile/24pds030.jpg',
+        linkedin: 'https://www.linkedin.com/in/sambath-raja-4a4349308/',
+        
+    },
+    {
+        id:31,
+        name: 'Hari Prasath M',
+        specialization: 'Machine Learning Engineer - Data Analyst',
+        skills: ['Python','SQL', 'MongoDB'],
+        impact: 'Developed a Personalized Diet Recommendation system using Machine Learning.',
+        rollNumber: '24Pds013',
+        profileImage: 'assets/profile/24pds013.jpg',
+        linkedin: 'https://www.linkedin.com/in/hari-prasath-718429348/',
+        github: 'https://github.com/Hari1112003'
+    },
+    {
+        id:32,
+        name: 'Shri Haran B',
+        specialization: 'DL/ML Engineer - Neural Network Specialist - Web Developer',
+        skills: ['Python', 'Numpy','Pandas', 'Django', 'Scikit-learn','HTML','CSS'],
+        impact: 'Developed a Machine Learning (ML) model for detecting errors in sensor parameters.',
+        rollNumber: '24Pds031',
+        profileImage: 'assets/profile/24pds031.jpg',
+        linkedin: 'https://www.linkedin.com/in/shri-haran-b-a359a4337/',
+        github: 'https://github.com/shriharanofficial'
+    },
+    {
+        id:33,
+        name: 'Nagaraj K',
+        specialization: 'Machine Learning Engineer - Data Analyst',
+        skills: ['Python', 'SQL','HTML','CSS'],
+        impact: 'Developed a Library Management System enhanced with Machine Learning capabilities.',
+        rollNumber: '24Pds021',
+        profileImage: 'assets/profile/24pds021.jpg',
+        linkedin: 'https://www.linkedin.com/in/nagaraj-k-178746375/',
+        github: 'https://github.com/nagaraj18-hub'
+    },
+    {
+        id:34,
+        name: 'Eswari V',
+        specialization: 'Data Analyst',
+        skills: ['Python', 'Power BI'],
+        impact: 'Developed a system for Soil Deficiency Classification based on nutrient levels.',
+        rollNumber: '24Pds011',
+        profileImage: 'assets/profile/24pds011.jpg',
+        linkedin: 'https://www.linkedin.com/in/eswari-velu-41b540294/',
+    },
+    {
+        id:35,
+        name: 'Nithin K Rajan',
+        specialization: 'Web Developer - Machine Learning Engineer - Graphic Designer',
+        skills: ['Python','Javascript','Figma','Framer','Affinity Designer'],
+        impact: 'Developed an AI-powered Phishing Message Classifier.',
+        rollNumber: '24Pds023',
+        profileImage: 'assets/profile/24pds023.jpg',
+        linkedin: 'https://www.linkedin.com/in/nithin-k-rajan-35a163293/',
+    },
+    {
+        id:36,
+        name: 'Dhanalingam S',
+        specialization: 'Data Analyst - Generative AI Specialist - Agentic AI Developer',
+        skills: ['Python', 'React', 'JavaScript','Express.js', 'MongoDB'],
+        impact: 'Developed a Machine Learning system for Movie Genre Classification.',
+        rollNumber: '24Pds010',
+        profileImage: 'assets/profile/24pds010.jpg',
+        linkedin: 'https://www.linkedin.com/in/dhana-lingam-149903284/',
+        github: 'https://github.com/Itzyourlee'
+    },
+    {
+        id:37,
+        name: 'Rishi Kumar S',
+        specialization: 'Machine Learning Engineer - Data Analyst',
+        skills: ['Python','SQL', 'Power BI'],
+        impact: 'Developed a Machine Learning system for Formula 1 Podium Prediction.',
+        rollNumber: '24Pds027',
+        profileImage: 'assets/profile/24pds027.jpg',
+        linkedin: 'http://www.linkedin.com/in/rishi-kumar-s-234228392/',
+        github: 'https://github.com/Rishistiglitz'
+    },
+    {
+        id:38,
+        name: 'Chandrahasan J',
+        specialization: 'Data Scientist - Data Analyst - Game Developer',
+        skills: ['Python', 'HTML','CSS'],
+        impact: 'Developed a Machine Learning system for Car Resale Value Prediction.',
+        rollNumber: '24Pds008',
+        profileImage: 'assets/profile/24pds008.jpg',
+        linkedin: 'https://www.linkedin.com/in/chandrahasan-j-315a81322/',
+        github: 'https://github.com/Charana28-03'
+    },
+    {
+        id:39,
+        name: 'Siddharth R',
+        specialization: 'Machine Learning Engineer - Data Analyst - Java developer',
+        skills: ['Python', 'Java', 'Javascript','SQL', 'PHP','numpy','pandas'],
+        impact: 'Developed a comprehensive analysis framework to study mobile phone addiction in teenagers.',
+        rollNumber: '24Pds032',
+        profileImage: 'assets/profile/24pds032.jpg',
+        linkedin: 'https://www.linkedin.com/in/sambath-raja-4a4349308/',
+        github: 'https://github.com/swathyM'
+    },
+    {
+        id:40,
+        name: 'Gopika Sri M',
+        specialization: 'Machine Learning Engineer - Data Analyst - Cloud Computing',
+        skills: ['Python','SQL', 'Power BI','Oracle Cloud'],
+        impact: 'Developed a Crop Recommendation System based on soil nutrient analysis.',
+        rollNumber: '24Pds012',
+        profileImage: 'assets/profile/24pds012.jpg',
+        linkedin: 'https://www.linkedin.com/in/gopika-sri-m-304199279/',
+        
+    },
+    {
+        id:41,
+        name: 'Surjith Kumar A',
+        specialization: 'Data Analyst - AI/ML Engineer',
+        skills: ['Python', 'SQL','Power BI','Tableau'],
+        impact: 'Developed a system for Diabetics Diagnosis Prediction utilizing the Support Vector Machine (SVM) algorithm.',
+        rollNumber: '24Pds037',
+        profileImage: 'assets/profile/24pds037.jpg',
+        linkedin: 'https://www.linkedin.com/in/a-surjith-kumar-221bb92b2/',
+        github: 'https://github.com/asurjithkumar-collab'
+    },
+    {
+        id:42,
+        name: 'Absul Basheer J',
+        specialization: 'Full Stack Developer - Digital Marketing Specialist - Data Analyst',
+        skills: ['Python', 'JavaScript','SQL','Power BI','Excel'],
+        impact: 'Developed a system for Electricity Cost Prediction using Machine Learning.',
+        rollNumber: '24Pds001',
+        profileImage: 'assets/profile/24pds001.jpg',
+        linkedin: 'https://www.linkedin.com/in/abdul-baseer-0418801b6/',
+        
+    },
+    {
+        id:43,
+        name: 'Stella T',
+        specialization: 'Data Analyst - Business Analyst - Machine Learning Engineer',
+        skills: ['Python', 'R','SQl','Power BI','Excel'],
+        impact: 'Developed a system for credit scoring and customer segmentation.',
+        rollNumber: '24Pds034',
+        profileImage: 'assets/profile/24pds034.jpg',
+        linkedin: 'https://www.linkedin.com/in/stella-t-stella-t-5b879a396/',
+        github: 'https://github.com/stella2210'
+    },
 ];
 
 // Function to create a student card
@@ -348,14 +543,14 @@ function createStudentCard(student, index) {
                     Download Resume
                 </button>
             <div class="social-links">
-                <a href="${student.linkedin || '#'}" class="social-link" target="_blank" rel="noopener noreferrer">
+                ${student.linkedin ? `<a href="${student.linkedin}" class="social-link" target="_blank" rel="noopener noreferrer">
                     <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                     LinkedIn
-                </a>
-                <a href="${student.github || '#'}" class="social-link" target="_blank" rel="noopener noreferrer">
+                </a>` : ''}
+                ${student.github ? `<a href="${student.github}" class="social-link" target="_blank" rel="noopener noreferrer">
                     <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
                     GitHub
-                </a>
+                </a>` : ''}
             </div>
         </div>
     `;
