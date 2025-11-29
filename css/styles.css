@@ -306,6 +306,26 @@ body {
     color: #93c5fd;
 }
 
+.faculty-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #e2e8f0;
+    margin: 0 auto 20px;
+    overflow: hidden;
+    border: 4px solid #e2e8f0;
+}
+
+.faculty-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.faculty-card.director .faculty-photo {
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
 .faculty-avatar {
     width: 100px;
     height: 100px;
@@ -341,6 +361,52 @@ body {
 .faculty-title {
     font-size: 0.85rem;
     color: #64748b;
+}
+
+.faculty-qualification {
+    font-size: 0.85rem;
+    color: #10b981;
+    font-weight: 600;
+    margin-top: 8px;
+    padding: 6px 12px;
+    background: rgba(16, 185, 129, 0.1);
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.faculty-card.director .faculty-qualification {
+    background: rgba(16, 185, 129, 0.2);
+    color: #6ee7b7;
+}
+
+.faculty-resume-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #3b82f6;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.faculty-resume-btn:hover {
+    background: #2563eb;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+.faculty-card.director .faculty-resume-btn {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.faculty-card.director .faculty-resume-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
 }
 
 /* Curriculum Section */
